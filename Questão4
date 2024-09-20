@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explicação sobre semântica em HTML5 e sua importância.">
+    <meta name="author" content="Lucas Vianna Carvalho">
+    <meta name="keywords" content="HTML5, semântica">
+    <title>Semântica em HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>O Que Significa Semântica em HTML5?</h1>
+
+        <div class="content">
+            <h2>Explicação de Semântica</h2>
+            <p>
+                Atualmente o papel da HTML não é apenas estruturar documentos para a web, mas também descrever o significado do conteúdo presente nesses documentos por meio de tags semânticas. O HTML semântico tem como objetivo descrever o significado do conteúdo presente em documentos HTML, tornando-o mais claro tanto para programadores quanto para browsers e outras engines que processam essa informação..
+            </p>
+
+            <h2>Importância da Semântica em HTML5</h2>
+            <p>
+                A semântica é importante no HTML5 porque melhora a acessibilidade, torna a estrutura da página 
+                mais compreensível para desenvolvedores e navegadores, além de ajudar em otimizações para motores 
+                de busca (SEO). Usar tags semânticas permite que ferramentas como leitores de tela identifiquem 
+                corretamente as seções do site, ajudando na navegação de pessoas com deficiência.
+            </p>
+
+            <h2>Benefícios Práticos da Semântica</h2>
+            <ul>
+                <li><strong>Acessibilidade:</strong> Facilita a leitura e interpretação do conteúdo por assistentes digitais.</li>
+                <li><strong>SEO:</strong> Melhora o posicionamento nos mecanismos de busca ao destacar a relevância do conteúdo.</li>
+                <li><strong>Manutenção:</strong> Deixa o código mais limpo e organizado, facilitando a leitura por outros desenvolvedores.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+Css:
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
