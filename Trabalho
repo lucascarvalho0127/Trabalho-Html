@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 1 – Questão 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>País dos Meus Sonhos</h1>
+    <p>
+        Eu gostaria de morar ou pelo menos visitar a Suíça, pois é um país rico em paisagens 
+        fabulosas, um lugar esbelto pela natureza, com uma ótima qualidade de vida, muito seguro 
+        e com muitas oportunidades para desenvolver as habilidades que possuo.
+    </p>
+</body>
+</html>
+
+------
+CSS
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
