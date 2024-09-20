@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O Futuro">
+    <meta name="author" content="Lucas Vianna Carvalho">
+    <meta name="keywords" content="Aplicativo, Futuro, Produtivo.">
+    <title>Lista 1 – Questão 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Aplicativo para o seu sonho!</h1>
+    <p>
+        O aplicativo "Futuro" tem como objetivo ajudar pessoas a comprir tarefas que são desanimantes ou complexas, dando dicas exclusivas sobre o assunto e fazendo o usuário ter mais ânimo para completar seus sonhos e objetivos.
+      Quando a situação ficar difícil, o aplicativo terá uma aba exclusiva para se conectar com outros usuarios, ou se preferir poderá se comunicar com nossa própria I.A! O caminho do seu sonho nunca esteve tão próximo de ser realizado com tamanho êxito, venha para noss app e conquiste o seu maior desejo e futuro!!
+    </p>
+</body>
+</html>
+
+Css:
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
