@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exibição de países e suas bandeiras por continente.">
+    <meta name="author" content="Lucas Vianna Carvalho">
+    <meta name="keywords" content="Suíça, Canadá, Japão">
+    <title>Países e Bandeiras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Países e suas Bandeiras</h1>
+
+    <!-- Países e Continentes -->
+    <section>
+        <h2>Países Destacados</h2>
+        
+        <div class="pais">
+            <h3><a href="https://pt.wikipedia.org/wiki/Su%C3%AD%C3%A7a" target="_blank">Suíça</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Su%C3%AD%C3%A7a" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Switzerland.svg" alt="Bandeira da Suíça" width="100">
+            </a>
+        </div>
+
+        <div class="pais">
+            <h3><a href="https://pt.wikipedia.org/wiki/Canad%C3%A1" target="_blank">Canadá</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Canad%C3%A1" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" alt="Bandeira do Canadá" width="100">
+            </a>
+        </div>
+
+        <div class="pais">
+            <h3><a href="https://pt.wikipedia.org/wiki/Jap%C3%A3o" target="_blank">Japão</a></h3>
+            <a href="https://pt.wikipedia.org/wiki/Jap%C3%A3o" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg" alt="Bandeira do Japão" width="100">
+            </a>
+        </div>
+    </section>
+</body>
+</html>
