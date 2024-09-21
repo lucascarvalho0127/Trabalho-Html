@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Server Side x Client Side">
+    <meta name="author" content="Lucas Vianna Carvalho">
+    <meta name="keywords" content="server side, client side">
+    <title>Server Side x Client Side</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #0077cc;
+            text-align: center;
+        }
+
+        h2 {
+            color: #005f99;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 1.1em;
+        }
+
+        .space-for-answer {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin: 20px 0;
+        }
+
+        .highlight {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #e0f7fa;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Diferença entre Server Side e Client Side</h1>
+
+        <h2>Pergunta:</h2>
+        <p>Qual é a diferença entre linguagem de programação Server Side e Client Side?</p>
+
+        <div class="space-for-answer">
+            <p>Na arquitetura cliente x servidor, os clientes (ou usuários) são aqueles que solicitam serviços (requisições) executados nas aplicações armazenadas nos servidores, o que envolve o ciclo requisição e resposta. Os clientes podem usar dispositivos como computadores, tablets, smartphones, por exemplo, e são responsáveis por solicitar algum serviço, com processos de início e fim bem definidos. Os servidores, normalmente, são mais robustos e funcionam continuamente e, quando recebem a requisição de algum cliente, processam-na e retornam uma resposta, que é vista pelo usuário. A arquitetura cliente x servidor apresenta vários benefícios, especialmente no modelo de quatro camadas, separando os papéis dos usuários, das aplicações, dos dados e da web.</p>
+        </div>
+
+        <h2>Exemplos de Linguagens</h2>
+        <p>A seguir estão alguns exemplos de linguagens usadas em cada tipo:</p>
+
+        <div class="highlight">
+            <h3>Client Side</h3>
+            <p>Exemplos: HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="highlight">
+            <h3>Server Side</h3>
+            <p>Exemplos: PHP, Node.js</p>
+        </div>
+    </div>
+</body>
+</html>
